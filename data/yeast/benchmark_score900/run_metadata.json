@@ -1,0 +1,62 @@
+{
+  "run_id": "20260519_140219",
+  "timestamp": "2026-05-19T15:20:45+07:00",
+  "dataset_label": "yeast_benchmark_900",
+  "input_file": "yeast_input.txt",
+  "species": 4932,
+  "required_score": 900,
+  "add_nodes": 0,
+  "min_size": 1,
+  "use_giant_arg": "auto",
+  "use_gc_effective": true,
+  "scope_label": "GC",
+  "graph_full": {
+    "n_nodes": 1627,
+    "n_edges": 26844
+  },
+  "graph_active": {
+    "n_nodes": 1531,
+    "n_edges": 26721
+  },
+  "components": {
+    "n_components": 36,
+    "is_connected": false,
+    "gc_size": 1531
+  },
+  "algorithms_requested": [
+    "DEMON",
+    "KCLIQUE",
+    "SLPA",
+    "EGONET",
+    "NODEP",
+    "ANGEL",
+    "CONGA",
+    "CONGO",
+    "LAIS2",
+    "LPANNI",
+    "CORE_EXP",
+    "DCS",
+    "DPCLUS",
+    "IPCA",
+    "EBGC",
+    "GRAPH_ENT",
+    "COACH",
+    "UMSTMO",
+    "WALKSCAN",
+    "WCOMMUNITY",
+    "MULTICOM",
+    "OSSE",
+    "CN_OCD",
+    "COBS",
+    "NOCD_GNN"
+  ],
+  "n_algorithms": 25,
+  "n_success": 21,
+  "n_error": 2,
+  "files": {
+    "summary_csv": "outputs_yeast_benchmark/yeast_benchmark_900_run_20260519_140219/summary_metrics.csv",
+    "errors_csv": "outputs_yeast_benchmark/yeast_benchmark_900_run_20260519_140219/errors.csv",
+    "communities_csv": "outputs_yeast_benchmark/yeast_benchmark_900_run_20260519_140219/all_communities_long.csv",
+    "memberships_csv": "outputs_yeast_benchmark/yeast_benchmark_900_run_20260519_140219/all_memberships_long.csv"
+  }
+}

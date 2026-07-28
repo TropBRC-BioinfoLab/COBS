@@ -1,0 +1,21 @@
+run_id,timestamp,algo_key,algo_name,runtime_sec,params_json,error_type,error_message,traceback
+20260519_140219,2026-05-19T14:36:12+07:00,CONGA,CONGA,1801.9312812050048,"{""number_communities"": 3}",TimeoutError,Melebihi batas waktu 1800 detik,"Traceback (most recent call last):
+  File ""/home/m5324036/comdetection/batch_run_overlap_ppi_v7_generic.py"", line 1151, in main
+    raise TimeoutError(run_result.get(""error_message"", ""Timeout""))
+TimeoutError: Melebihi batas waktu 1800 detik
+"
+20260519_140219,2026-05-19T15:06:14+07:00,CONGO,CONGO,1801.9673621779948,"{""number_communities"": 3, ""height"": 2}",TimeoutError,Melebihi batas waktu 1800 detik,"Traceback (most recent call last):
+  File ""/home/m5324036/comdetection/batch_run_overlap_ppi_v7_generic.py"", line 1151, in main
+    raise TimeoutError(run_result.get(""error_message"", ""Timeout""))
+TimeoutError: Melebihi batas waktu 1800 detik
+"
+20260519_140219,2026-05-19T15:18:35+07:00,EBGC,EBGC,77.1528869390022,{},RuntimeError,'RPL20A',"Traceback (most recent call last):
+  File ""/home/m5324036/comdetection/batch_run_overlap_ppi_v7_generic.py"", line 1153, in main
+    raise RuntimeError(run_result.get(""error_message"", ""Unknown worker error""))
+RuntimeError: 'RPL20A'
+"
+20260519_140219,2026-05-19T15:19:16+07:00,MULTICOM,MULTICOM,2.278483022004366,"{""seed_node"": 0}",RuntimeError,"only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices","Traceback (most recent call last):
+  File ""/home/m5324036/comdetection/batch_run_overlap_ppi_v7_generic.py"", line 1153, in main
+    raise RuntimeError(run_result.get(""error_message"", ""Unknown worker error""))
+RuntimeError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+"
