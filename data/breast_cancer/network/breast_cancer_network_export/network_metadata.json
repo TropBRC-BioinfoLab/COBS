@@ -1,0 +1,12 @@
+{
+  "input_identifiers": 755,
+  "mapped_rows": 736,
+  "connected_nodes_before_gcc": 318,
+  "edges_before_gcc": 778,
+  "connected_components": 26,
+  "gcc_nodes": 252,
+  "gcc_edges": 729,
+  "species": 9606,
+  "required_score": 900,
+  "add_nodes": 0
+}

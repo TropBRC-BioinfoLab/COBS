@@ -1,0 +1,27 @@
+SEARCH INFORMATION
+==================
+
+Download Date:       01/05/2026, 12.21.08
+
+SEARCH DETAILS
+--------------
+Search Terms:        Malignant neoplasm of breast (CUI: C0006142)
+Analysis Type:       DISEASES
+Data Type:           Summary
+Source:              CURATED
+Tab:                 GDA
+Total Results:       755
+
+CUSTOM SCORE CONFIGURATION
+--------------------------
+My Score Active:     No
+
+FILTERS APPLIED
+---------------
+
+
+DISPLAY SETTINGS
+----------------
+Visible Columns:     geneSymbol, geneDescription, numDiseasesAssociatedToGene, numVariantsAssociatedToGene, score, sourceScore, numPMIDsupportingAssociation, numberChemsIncludedInEvidence, numberPmidsWithChemsIncludedInEvidence, numDBSNPsupportingAssociation, yearInitial, yearFinal, EI, geneDSI, geneDPI, genepLI, numCTs
+
+==================
