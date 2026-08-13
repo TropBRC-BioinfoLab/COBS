@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use COBS in your research, please cite this software. The associated article citation and DOI will be added after publication."
+type: software
+title: "COBS: Crisp to Overlap Boundary Similarity"
+abstract: >-
+  COBS is a controlled overlapping-community detection framework that starts
+  from a crisp partition, identifies boundary nodes, assigns additional
+  memberships using node-to-community neighborhood similarity, and applies
+  controlled community merging. The software also supports overlapping
+  community-consideration centrality and PPI-network analysis.
+authors:
+  - family-names: Rustamaji
+    given-names: Heru Cahya
+  - family-names: Batubara
+    given-names: Irmanida
+  - family-names: Rafi
+    given-names: Mohamad
+  - family-names: Nurcholis
+    given-names: Waras
+  - family-names: Heryanto
+    given-names: Rudi
+  - family-names: Dewi
+    given-names: Mira
+  - family-names: Tedjo
+    given-names: Aryo
+  - family-names: Amanda
+    given-names: Chairunnisa Nur
+  - family-names: Rizaldi
+    given-names: Said Thaufik
+  - family-names: Achyar
+    given-names: Gilland Fausta Putra
+  - family-names: Abdullah
+    given-names: Syahid
+  - family-names: Ishlah
+    given-names: Tamimah Shafwatul
+  - family-names: Kusuma
+    given-names: Wisnu Ananta
+    email: ananta@apps.ipb.ac.id
+repository-code: "https://github.com/TropBRC-BioinfoLab/COBS"
+url: "https://github.com/TropBRC-BioinfoLab/COBS"
+keywords:
+  - overlapping community detection
+  - network science
+  - protein-protein interaction network
+  - bioinformatics
+  - breast cancer
+  - community-aware centrality
+

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environments and local config
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local/generated outputs
+outputs*/
+*.log
+*.tmp
+*.bak
+
+# User-supplied identifier files (may contain licensed third-party data)
+identifiers.txt
+
+# Third-party raw/source exports intentionally not redistributed
+**/search_result_C0006142.xlsx
+**/breastcancerdisgenet.txt
+**/disgenet_breast_cancer_*_genes.csv
+**/string_mapping_full.tsv
+**/string_network_raw_score900.tsv
+**/corum_humanComplexes.txt
+**/corum_allComplexes.txt
+**/CYC2008 Catalogue.txt
