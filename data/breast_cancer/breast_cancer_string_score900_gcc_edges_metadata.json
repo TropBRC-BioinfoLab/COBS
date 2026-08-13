@@ -1,0 +1,18 @@
+{
+  "file": "breast_cancer_string_score900_gcc_edges.csv",
+  "description": "Exact undirected STRING-derived giant-connected-component edge list used for the final COBS breast cancer analysis",
+  "species_taxon": 9606,
+  "string_required_score": 900,
+  "normalized_score_range": [0.9, 0.999],
+  "additional_interactors": 0,
+  "component": "giant connected component",
+  "nodes": 252,
+  "edges": 729,
+  "unique_undirected_edges": 729,
+  "duplicate_undirected_edges": 0,
+  "self_loops": 0,
+  "missing_endpoints": 0,
+  "membership_nodes_matched": 252,
+  "occ_centrality_nodes_matched": 252,
+  "sha256": "3214a1c3695e24a89d936bdb63224589db5ea2a19c6f8dfb49da0956a7202e2b"
+}
